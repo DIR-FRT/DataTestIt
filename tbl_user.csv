@@ -1,0 +1,5 @@
+tc_name,name,password,email,description,checking_control,checking_attribute,expectation
+IT_9_Create_User_001,abc,11111111,email@email.com,Make sure that Create user failed with invalid username.,username.errors,Values,Please use between 6 and 32 characters.
+IT_10_Create_User_002,testing,111,email@email.com,Make sure that create user failed with invalid password.,password.errors,Values,Try one with at least 8 characters.
+IT_11_Create_User_003,testing,11111111,email@email.com,Make sure that create user successfull with valid data.,/html/body/div/div/div/div/div[1]/b,X-path,This is User's Page
+IT_12_Create_User_004,testing,11111111,email,Make sure that Create user failed with invalid email.,email.errors,Values,Email is invalid.

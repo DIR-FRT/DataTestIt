@@ -1,0 +1,3 @@
+tc_name,username,password,description,checking_control,checking_attribute,expectation
+IT_6_login_001,admin,12345678,Make sure that user login successfull with valid data.,/html/body/div/div/div/div/div[1]/b,value,This is User's Page
+IT_7_login_002,admin,123,Make sure that user login failed with invalid password.,/html/body/div/form/div/span[2],value,Your username and password is invalid.
